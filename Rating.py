@@ -110,3 +110,4 @@ if uploaded_file:
         final.to_excel(writer, index=False, sheet_name='Результат')
     st.download_button("⬇️ Завантажити результат у Excel", data=output.getvalue(),
                        file_name="рейтинг.xlsx", mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+
