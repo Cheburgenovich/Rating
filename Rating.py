@@ -142,4 +142,3 @@ with tab1:
         st.download_button("⬇️ Завантажити результат у Excel", data=output.getvalue(),
                            file_name=filename,
                            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
-
